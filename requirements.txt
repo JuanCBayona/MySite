@@ -1,4 +1,4 @@
 dash==2.11.1
 dash-bootstrap-components==1.4.0
-Flask==2.3.2
+Flask==2.2.5
 opencv-python-headless==4.8.0.74
