@@ -17,7 +17,7 @@ server.config['TIMEOUT'] = 600
 
 # Initialize Dash app
 app = dash.Dash(__name__, server=server, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 # Create the layout. This is located in layout.py
 app.layout = create_layout()
 
